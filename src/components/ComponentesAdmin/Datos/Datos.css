@@ -1,0 +1,61 @@
+.form__admin {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.form__admin > div {
+  display: flex;
+  flex-basis: 49%;
+  flex-direction: column;
+  padding-bottom: 34px;
+}
+
+.form__admin > div:last-child {
+  padding-bottom: 0;
+}
+
+.form__admin label.Text-2 {
+  color: var(--color-oscuro);
+  padding-bottom: 5px;
+}
+
+.form__admin .form__input-admin,
+textarea {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--color-oscuro);
+  font-family: Roboto;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding-left: 12px;
+}
+
+.form__admin .form__input-admin {
+  height: 40px;
+}
+
+.form__admin > div.textArea {
+  flex-basis: 100%;
+}
+
+.form__admin textarea {
+  padding-top: 12px;
+}
+
+.form__admin input::placeholder,
+textarea::placeholder {
+  color: #bebebe;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+@media screen and (max-width: 767px) {
+  .form__admin > div {
+    flex-basis: 100%;
+  }
+}

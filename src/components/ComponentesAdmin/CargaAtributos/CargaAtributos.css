@@ -1,0 +1,34 @@
+.atributos__admin {
+  display: flex;
+  flex-direction: row;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 28px;
+  margin-bottom: 10px !important;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.atributos__admin .Text-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-oscuro);
+  font-family: Roboto;
+  padding: 0 20px 0 0;
+  display: flex;
+}
+
+.atributos__admin .atributos__input-admin{
+    margin-right: 5px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+  }
+  
+  @media screen and (max-width: 767px) {
+    .atributos__admin .Text-label {
+        padding: 0 20px 20px 0;
+    }
+  }
+  

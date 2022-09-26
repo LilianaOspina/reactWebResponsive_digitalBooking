@@ -1,0 +1,12 @@
+.Body {
+    background-color: var(--color-fondo);
+    /* este height desconfiguraba el fondo cuando entraban las cards */
+    min-height: calc(110vh);
+    /* este padding deja que no se oculten las cards detras del footer */
+    padding-top: 10vh;
+    /* este padding deja que no se oculten las cards detras del header */
+    /* padding-bottom: 10vh; */
+
+    padding-top: 80px;
+
+}

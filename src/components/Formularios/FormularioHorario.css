@@ -1,0 +1,124 @@
+.form__horario {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 95vw;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 0px rgba(173, 173, 173, 1);
+    background-color: var(--color-blanco);
+    padding: 15px
+}
+
+.form__horario-title {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.form__horario-logo {
+    width: 20px;
+}
+
+.form__horario-title p {
+    width: 92%;
+    font-size: 14px;
+    color: var(--color-oscuro);
+    font-weight: 700;
+}
+
+.form__horario-horas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.form__horario label {
+    font-weight: 700;
+    font-size: 12px;
+    color: var(--color-oscuro);
+    padding: 7px 0px;
+}
+
+/* .form__horario select {
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-gris);
+    background-color: var(--color-blanco);
+    width: 100%;
+
+} */
+
+.selectorHorario .selectorHorario__control {
+    border: 0 !important;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--color-oscuro);
+    font-family: Roboto;
+    background: #ffffff;
+    border: none;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding-left: 12px;
+    height: 42px;
+}
+
+.selectorHorario .schedule__option {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--color-principal);
+    color: black;
+    font-weight: 500;
+    font-family: Roboto;
+    font-size: 12px;
+}
+
+.selectorHorario__indicator-separator {
+    display: none !important;
+}
+
+.selectorHorario .selectorHorario__indicator.selectorHorario__dropdown-indicator svg {
+    color: var(--color-principal);
+}
+
+.selectorHorario .selectorHorario__value-container {
+    padding: 0;
+}
+
+.selectorHorario .selectorHorario__placeholder {
+    color: #bebebe;
+}
+
+.selectorHorario .schedule__option:last-child {
+    border: 0;
+}
+
+.selectorHorario .selectorHorario__menu-list {
+    padding: 0 13px;
+}
+
+.selectorHorario .selectorHorario__control--is-focused {
+    /* boxshadow: 0 !important; */
+    outline-color: var(--color-principal) !important;
+    outline-style: solid !important;
+    outline-width: 1px !important;
+}
+
+@media (min-width:500px) {
+    .form__horario-title p {
+        width: 95%;
+    }
+
+}
+
+@media (min-width:721px) {
+    .form__horario {
+        width: 95%;
+    }
+
+}

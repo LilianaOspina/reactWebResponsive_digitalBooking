@@ -1,0 +1,29 @@
+.tituloAdmin * {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+.tituloAdmin {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--color-oscuro);
+  justify-content: space-between;
+  padding: 15px 43px;
+  align-items: center;
+}
+
+.tituloAdmin .div_1 {
+  text-align: left;
+  color: var(--color-fondo);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+@media screen and (max-width: 767px) {
+  .tituloAdmin {
+    padding: 15px 11px;
+  }
+}

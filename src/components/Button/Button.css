@@ -1,0 +1,22 @@
+.btn {
+    border-radius: 5px;
+    border: 1px solid var(--color-principal);
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.primary {
+    background-color: var(--color-principal);
+    color: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+}
+
+.secondary {
+    background-color: #FFFFFF;
+    color: var(--color-principal);
+}
+
+.fullSize {
+    width: 100%;
+}

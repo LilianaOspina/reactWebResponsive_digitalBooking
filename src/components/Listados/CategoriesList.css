@@ -1,0 +1,13 @@
+.categories__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.categories__list li {
+    list-style-type: none;
+    padding-bottom: 3%;
+}

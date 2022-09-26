@@ -1,0 +1,16 @@
+.sinreservas{
+    padding-top: 80px;
+    height: 80vh;
+    background-color: var(--color-fondo);
+}
+.sinreservas h2{
+    padding-top: 80px;
+    background-color: var(--color-fondo);
+}
+
+.sinreservas__button{
+    padding-top: 10vh;
+}
+.sinreservas__button .btn{
+    width: 30%;
+}

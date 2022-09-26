@@ -1,0 +1,67 @@
+.App {
+  /*Estilos Generales de Color*/
+  --color-principal: #1DBEB4;
+  --color-oscuro: #383B58;
+  --color-claro: #545776;
+  --color-fondo: #F3F1ED;
+  --color-blanco: #FFFFFF;
+  --color-gris: #4F4F50;
+  --color-input: #DFE4EA; font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+/*Estilos Generales de Texto*/
+.Heading-1 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.Heading-2 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.Heading-3 {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.Heading-4 {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.Button-1 {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.Button-2 {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.Text-1 {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.Text-2 {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.swal2-shown .swal2-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--color-oscuro);
+  margin-top: 30px;
+}
+
+.swal2-shown .swal2-styled.swal2-confirm, .swal2-shown .swal2-styled.swal2-confirm:focus {
+ background-color: #1DBEB4;
+ box-shadow: none;
+}
+

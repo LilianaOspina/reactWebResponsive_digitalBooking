@@ -1,0 +1,26 @@
+.product__list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.product__list li {
+    list-style-type: none;
+    padding-bottom: 20px;
+    width: 90vw;
+}
+
+@media (min-width:421px) and (max-width: 1109px) {
+    .product__list li {
+        min-width: 648px;
+        width: 0;
+    }
+}
+
+@media (min-width: 1110px) {
+    .product__list li {
+        width: 46vw;
+        min-width: 430px;
+    }
+}

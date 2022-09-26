@@ -1,0 +1,174 @@
+.SearchBar-container .search-calendar {
+  position: absolute;
+  z-index: 15;
+  margin-top: 7px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 5px 5px;
+  margin-top: 44px;
+}
+
+.SearchBar-container .search-calendar > Button {
+  margin-bottom: 18px;
+  margin-right: 31px;
+}
+
+.SearchBar-container .calendar-custom .react-calendar__tile {
+  font-weight: 400;
+  font-family: Roboto;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.SearchBar-container .calendar-custom .react-calendar__navigation__label {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.SearchBar-container .calendar-custom .react-calendar__navigation__next2-button,
+.SearchBar-container
+  .calendar-custom
+  .react-calendar__navigation__prev2-button {
+  display: none;
+}
+
+.SearchBar-container .calendar-custom .react-calendar__tile--now {
+  background-color: transparent;
+}
+
+.SearchBar-container .calendar-custom .react-calendar__tile--active {
+  background-color: transparent;
+}
+
+.SearchBar-container .calendar-custom .react-calendar__tile--active > abbr {
+  background-color: var(--color-principal);
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 700;
+}
+
+.SearchBar-container
+  .calendar-custom
+  .react-calendar__tile--active:enabled:hover,
+.SearchBar-container .react-calendar__tile--active:enabled:focus {
+  background-color: transparent !important;
+}
+
+.SearchBar-container .calendar-custom abbr[title] {
+  text-decoration: none;
+}
+
+.SearchBar-container .react-calendar {
+  border: 0 !important;
+}
+
+.SearchBar-container
+  .calendar-custom
+  .react-calendar__navigation__label__labelText {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  color: #000000;
+}
+
+.SearchBar-container div:first-child.react-calendar__month-view:after {
+  border-right: 1px solid #a8a8a8;
+  display: inline-block;
+  height: 100%;
+  width: 1px;
+  content: "";
+  margin-left: 15px;
+}
+
+.SearchBar-container div:first-child.react-calendar__month-view {
+  display: flex;
+}
+
+.SearchBar-container
+  .calendar-custom
+  .react-calendar__navigation__label__divider {
+  display: none;
+}
+
+.SearchBar-container .calendar-custom .react-calendar__tile--now:enabled:hover {
+  background-color: transparent;
+}
+
+.SearchBar-container .react-calendar__month-view__days__day--neighboringMonth {
+  visibility: hidden !important;
+}
+
+.SearchBar-container .search-calendar.simple-calendar {
+  display: none;
+}
+
+.SearchBar-container .react-calendar__tile:disabled {
+  background-color: transparent;
+  text-decoration: line-through;
+  color: #BEBEBE;
+}
+
+.SearchBar-container .react-calendar__tile--now {
+  font-weight: bold !important;
+  color: #000000;
+}
+
+/* selectores de inputs */
+
+.SearchBar-container .searchBar-calendar {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+  margin-right: 8px;
+  font-weight: 500;
+  font-family: Roboto;
+  font-size: 14px;
+  color: #7f7f7f;
+  background-color: #fff;
+  display: flex;
+}
+
+.SearchBar-container .searchBar-calendar img {
+  padding: 9px;
+}
+
+.SearchBar-container .searchBar-calendar input,
+.SearchBar-container .searchBar-calendar input:focus-visible {
+  border: none;
+  font-family: inherit;
+  outline: none;
+  color: var(--color-claro);
+}
+
+@media screen and (max-width: 420px) {
+  .SearchBar-container .search-calendar{
+    margin-top: 93px;
+  }
+  .SearchBar-container .search-calendar.double-calendar {
+    display: none;
+  }
+
+  .SearchBar-container .search-calendar.simple-calendar {
+    display: block;
+    padding: 20px;
+    margin-right: 10px;
+  }
+
+  .SearchBar-container .calendar-custom.react-calendar {
+    width: 100%;
+  }
+
+  .SearchBar-container .searchBar-calendar {
+    margin-bottom: 6px;
+  }
+}

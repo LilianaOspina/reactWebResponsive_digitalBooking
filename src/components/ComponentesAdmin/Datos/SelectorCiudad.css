@@ -1,0 +1,65 @@
+.selectorCiudad {
+}
+
+.selectorCiudad .selectorCiudad__control {
+  border: 0 !important;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--color-oscuro);
+  font-family: Roboto;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding-left: 12px;
+  height: 42px;
+}
+
+.selectorCiudad .ciudad__option {
+  
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--color-principal);
+  color: black;
+  font-weight: 500;
+  font-family: Roboto;
+  font-size: 12px;
+}
+
+.selectorCiudad__indicator-separator {
+  display: none !important;
+}
+
+.selectorCiudad
+  .selectorCiudad__indicator.selectorCiudad__dropdown-indicator
+  svg {
+  color: var(--color-principal);
+}
+.selectorCiudad .selectorCiudad__value-container {
+  padding: 0;
+}
+
+.selectorCiudad .selectorCiudad__placeholder {
+  color: #bebebe;
+}
+
+.selectorCiudad .ciudad__option:last-child  {
+    border: 0;
+  }
+
+  .selectorCiudad .selectorCiudad__menu-list {
+    padding: 0 13px;
+  }
+  .selectorCiudad  .selectorCiudad__control--is-focused {
+    outline-color: var(--color-principal) !important;
+    outline-style: solid !important;
+    outline-width: 1px !important;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+
+  }
+  
+  @media screen and (max-width: 767px) {
+  
+  }

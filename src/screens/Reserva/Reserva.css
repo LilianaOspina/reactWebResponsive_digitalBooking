@@ -1,0 +1,61 @@
+.reserva * {
+    margin: 0;
+    /* padding: 0; */
+    border: none;
+    box-sizing: border-box;
+}
+
+.reserva {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.reserva__check,
+.reserva__detail {
+    padding: 20px 0;
+}
+
+.reserva h2 {
+    width: 100%;
+    text-align: left;
+    padding: 2% 0 2.5% 2.5%;
+    color: var(--color-oscuro);
+}
+
+.reserva__check {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.reserva__detail {
+    display: flex;
+    align-items: center;
+}
+
+/* sin este padding se daña el calendar, verlo con Pato  */
+.react-calendar__tile {
+    padding: 2%;
+}
+
+@media (min-width:421px) {
+    .reserva {
+        justify-content: center;
+    }
+}
+
+@media (min-width:721px) {
+    .reserva h2 {
+        width: 100%;
+        text-align: left;
+        padding: 2% 0 1% 2.5%;
+    }
+
+    .reserva__check {
+        width: 70vw;
+    }
+
+}

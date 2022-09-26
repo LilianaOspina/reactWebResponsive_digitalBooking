@@ -1,0 +1,190 @@
+.card__reserva {
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px 0px rgba(173, 173, 173, 1);
+    background-color: var(--color-blanco);
+}
+
+.card__reserva-divs {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__reserva h2 {
+    color: var(--color-oscuro);
+    padding: 5% 0 2% 4%;
+    text-align: left;
+    font-size: 20px;
+
+}
+
+.card__reserva img {
+    width: 95vw;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card__reserva-div2 {
+    padding: 0 5% 0 5%;
+}
+
+.card__reserva-detalle {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 4% 0;
+
+}
+
+.card__reserva-detalle h4 {
+    color: var(--color-claro);
+    opacity: 50%;
+    font-weight: 500;
+
+}
+
+.card__reserva-detalle h2 {
+    color: var(--color-oscuro);
+    padding: 0;
+}
+
+.card__reserva-loc {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-claro);
+}
+
+.loc__icon {
+    padding-right: 2%;
+}
+
+.card__reserva-check {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.card__dates {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 5% 0 2% 0;
+    justify-content: space-between;
+
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    background-color: var(--color-gris);
+    opacity: 50%;
+}
+
+.card__dates>.card__dates-txt {
+    font-weight: bold;
+    color: var(--color-gris);
+}
+
+.card__dates>.card__dates-date {
+    color: var(--color-oscuro);
+}
+
+.card__reserva-button {
+    padding: 5.5% 0;
+}
+
+@media (min-width:500px) and (max-width:720px) {
+    .card__reserva-divs {
+        flex-direction: row;
+    }
+
+    .card__reserva-div2 {
+        padding: 0 4% 0 1%;
+    }
+
+    .card__reserva-detalle {
+        padding: 0% 0 5% 0;
+
+    }
+
+    .card__reserva-div1,
+    .card__reserva-div2 {
+        width: 47vw;
+    }
+
+    .card__reserva-div2 {
+        padding-bottom: 4%;
+    }
+
+    .card__reserva img {
+        width: 40vw;
+        border-radius: 5px;
+    }
+
+    .card__reserva-button {
+        padding: 6% 0;
+    }
+
+}
+
+@media (min-width:721px) {
+    .card__reserva {
+        width: 27vw;
+        height: fit-content;
+
+    }
+
+    .card__reserva>h2 {
+        padding: 6% 5%;
+        font-size: 24px;
+
+    }
+
+    .card__reserva img {
+        width: 27vw;
+        height: 300px;
+    }
+
+    .card__reserva-detalle {
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 11% 0;
+
+
+    }
+
+    .card__reserva-detalle h2 {
+        font-size: 24px;
+
+    }
+
+    .card__reserva-detalle h4 {
+        color: var(--color-claro);
+        opacity: 50%;
+        font-weight: 500;
+
+    }
+
+    .card__reserva-loc {
+        padding-top: 2%;
+    }
+
+    .card__reserva-check {
+        padding-bottom: 7%;
+    }
+
+    .card__dates {
+        padding: 8% 0 4% 0;
+    }
+
+    .card__reserva-button {
+        padding: 8% 0;
+    }
+
+}

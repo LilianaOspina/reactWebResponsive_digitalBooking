@@ -1,0 +1,22 @@
+.descripcionProducto * {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+.descripcionProducto {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color-oscuro);
+    justify-content: space-between;
+    padding: 1%;
+    align-items: center;
+
+}
+
+.descripcionProducto__div1 {
+    text-align: left;
+    padding-left: 2%;
+    color: var(--color-fondo);
+}

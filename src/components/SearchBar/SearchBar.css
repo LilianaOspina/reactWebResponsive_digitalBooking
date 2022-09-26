@@ -1,0 +1,89 @@
+.SearchBar-container {
+  background-color: var(--color-claro);
+  height: fit-content;
+  padding: 2px 30px 26px 30px;
+}
+
+.SearchBar-container .SearchBar-inputs {
+  display: inline-flex;
+  flex-basis: 100%;
+  max-width: 1068px;
+  width: 100%;
+  
+}
+
+.SearchBar-container .SearchBar-block1 {
+  display: flex;
+  flex-basis: 100%;
+}
+
+.SearchBar-container .SearchBar-block2 {
+  display: flex;
+  width: 200px;
+}
+
+.SearchBar-container > h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.SearchBar-container select {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+  margin-right: 8px;
+  font-weight: 500;
+  font-family: Roboto;
+  font-size: 14px;
+  color: #7f7f7f;
+}
+
+@media screen and (min-width: 720px) and (max-width: 1023px) {
+  .SearchBar-container > select {
+    width: 254px;
+  }
+  .SearchBar-container > h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .SearchBar-container .SearchBar-inputs {
+    flex-direction: column;
+  }
+
+  .SearchBar-container {
+    padding: 10px;
+  }
+
+  .SearchBar-container .SearchBar-block1 {
+    flex-direction: column;
+  }
+
+  .SearchBar-container select,
+  .SearchBar-container button {
+    margin: 4px 0;
+  }
+
+  .SearchBar-container .SearchBar-block2,
+  .SearchBar-container button.btn {
+    width: 100%;
+  }
+
+  .SearchBar-container .SearchBar-block2 {
+    display: flex;
+    width: 100%;
+  }
+
+  .SearchBar-container h1 {
+    font-size: 30px;
+  }
+
+  .SearchBar-container select {
+    width: 100%;
+    height: 38px;
+    margin-right: 0;
+  }
+}

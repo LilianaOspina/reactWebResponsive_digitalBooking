@@ -1,0 +1,39 @@
+.formularioAdmin * {
+  margin: 0;
+}
+
+.formularioAdmin {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+}
+
+.formularioAdmin h2 {
+  /* margin-left: 25px; */
+  padding-bottom: 13px;
+  color: var(--color-oscuro);
+}
+
+.formularioAdmin .formularioRow {
+  padding-bottom: 34px;
+}
+
+.formularioAdmin .crearButton Button {
+  width: 365px;
+}
+
+.formularioAdmin .crearButton {
+  align-self: center;
+}
+
+.formularioAdmin input:focus-visible, .formularioAdmin textarea:focus-visible {
+  outline: 1px solid var(--color-principal);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+@media screen and (max-width: 767px) {
+
+}

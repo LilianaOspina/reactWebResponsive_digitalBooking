@@ -1,0 +1,33 @@
+.Confirmacion{
+    margin: 0;
+    height: 100%;
+
+}
+
+.IconConfirmacion{
+    width: 80px;
+    height: 80px;
+}
+
+.ConfirmacionContainer{
+    padding: 50px 10px;
+    width : 50%;
+ 
+    margin : auto;
+    margin-top: 250px;
+    background-color: white;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+}
+
+.ConfirmTitulo{
+    color: var(--color-principal);
+    font-size: 24px;
+}
+
+.FooterConfirmacion{
+width: 100%;
+    position: absolute;
+bottom: 0px;
+right: 0px;
+}
