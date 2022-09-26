@@ -1,26 +1,13 @@
-# Front-End - Digital booking
+# Digital Booking
 
-![img](./src/assets/logo.png)
+## Indice de la documentación
 
-# Reglas organizacionales
+[6.1 BackEnd](/wiki/6.1-BackEnd.md)
 
-## Trello
+[6.2 Base de Datos](/wiki/6.2-Base-de-datos.md)
 
-[link](https://trello.com/b/1SATUrn5/tareas)
+[6.3 FrontEnd](/wiki/6.3-FrontEnd.md)
 
-## Componente Button
-Envuelve un botón HTML con los estilos necesarios para la app.
-### Modo de uso:
-Botón primario
-```js
-<Button onClick={onClickHandler}>Mi boton</Button>
-```
-Botón secundario
-```js
-<Button onClick={onClickHandler} variant="secondary">Mi boton</Button>
-```
+[6.4 Infraestructura](/wiki/6.4-Infraestructura.md)
 
-Botón 100% ancho
-```js
-<Button onClick={onClickHandler} size="full">Mi boton</Button>
-```
+[6.5 Testing](/wiki/6.5-Testing.md)
